@@ -1,0 +1,47 @@
+.rewards {
+  background: var(--lightGray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rewards .customButton {
+  color: var(--white);
+  height: 50px;
+  width: 170px;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+.rewards .rewardCardContainer {
+  padding-block: 4rem;
+}
+
+.rewards .rewardCardContainer .RewardCard {
+  cursor: pointer;
+}
+
+/* ************* SCREEN RESPONSIVE ******************* */
+@media (max-width: 1024px) {
+  .rewards .rewardCardContainer {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .rewards .rewardCardContainer {
+    padding: 2rem 0;
+  }
+}
+@media (max-width: 640px) {
+  .rewards .rewardCardContainer {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .rewards .rewardCardContainer {
+    padding: 6rem 0;
+  }
+}

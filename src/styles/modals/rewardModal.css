@@ -1,0 +1,40 @@
+.shareReward {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewardTextDiv {
+    text-align: center;
+}
+
+.rewardTextDiv h4 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rewardTextDiv p {
+    padding-top: 10px;
+}
+
+.rewardForm {
+    margin-top: 20px;
+}
+/* .REWARD_MODAL_INPUT .ant-input{
+    border-right: none !important;
+} */
+.REWARD_MODAL_INPUT .ant-input-group-addon {
+    background-color: transparent !important;
+}
+
+.REWARD_MODAL .ant-modal-content {
+    padding: 40px !important;
+}
+
+@media (max-width: 1440px) {
+    .REWARD_MODAL .ant-modal-content {
+        padding: 30px !important;
+    }
+}

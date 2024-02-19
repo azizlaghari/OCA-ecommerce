@@ -1,0 +1,232 @@
+.RewardCard {
+  width: 100%;
+  border-radius: 20px;
+  background: var(--white);
+  padding: 15px 20px 20px 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* PRODUCT IMAGE */
+.RewardCard .product_image {
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 20px;
+  background-color: #fffef3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.RewardCard .product_image .rating_box {
+  background-color: var(--white);
+  border-radius: 50px;
+  padding: 3px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.RewardCard .product_image .rewardPoints {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.RewardCard .product_image .rating_box svg {
+  color: #ffcb65;
+  font-size: 18px;
+}
+
+.RewardCard .product_image .rating_box span {
+  color: var(--text);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.16px;
+}
+
+.RewardCard .product_image .wishlist_box {
+  background-color: var(--white);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.RewardCard .product_image .wishlist_box svg {
+  color: var(--mainRed);
+  font-size: 18px;
+}
+
+.RewardCard .product_image .add_to_cart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background: var(--mainGradient);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.RewardCard .product_image .add_to_cart p {
+  color: var(--white);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.RewardCard .product_image:hover .add_to_cart {
+  opacity: 1;
+}
+
+/* PRODUCT DETAIL */
+.RewardCard .product_detail {
+  margin-top: 20px;
+  padding-inline: 5px;
+}
+
+.RewardCard .product_detail .product_points {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.RewardCard .product_detail .product_price {
+  color: var(--black);
+
+  text-align: left;
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: -0.24px;
+}
+
+/* POINT RAW */
+.RewardCard .product_detail .points_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.RewardCard .product_detail .points_box .pb_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.RewardCard .product_detail .points_box .pb_left img {
+  height: 25px;
+}
+
+.RewardCard .product_detail .points_box .pb_left p {
+  font-size: 18x;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-left: 5px;
+}
+
+.RewardCard .product_detail .points_box .pb_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.RewardCard .product_detail .points_box .pb_right img {
+  height: 20px;
+}
+
+.RewardCard .product_detail .points_box .pb_right .points {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.24px;
+}
+
+.RewardCard .product_detail .points_box .pb_right .price {
+  color: var(--text);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 200% */
+  letter-spacing: -0.16px;
+}
+
+/* COLOR AND SIZE BOX */
+.RewardCard .product_detail .color_and_size_box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.RewardCard .product_detail .color_and_size_box > div {
+  flex: 1;
+}
+
+.RewardCard .product_detail .color_and_size_box > div > p {
+  color: var(--text);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.RewardCard .product_detail .color_and_size_box > div > div {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.RewardCard .product_detail .color_and_size_box > div > div > p {
+  color: var(--text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.RewardCard .product_detail .color_div {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}

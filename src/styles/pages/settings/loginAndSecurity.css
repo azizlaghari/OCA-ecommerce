@@ -1,0 +1,136 @@
+/* Login and Security */
+.login_security_container {
+  width: 100%;
+}
+.login_security_container .change_pass_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.login_security_container .change_pass_box button {
+  background: linear-gradient(var(--lightGray), var(--lightGray)) padding-box,
+    var(--mainGradient) border-box;
+}
+
+/* Connected Account */
+.conneted_accounts_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.conneted_accounts_box .c_account_body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-block: 10px;
+}
+.conneted_accounts_box .c_account_body .c_account_card {
+  width: calc((100% - 16px) / 2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.conneted_accounts_box .c_account_body .c_account_card .icon_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.conneted_accounts_box .c_account_body .c_account_card .icon_box img {
+  width: 40px;
+  height: 40px;
+}
+
+.conneted_accounts_box .c_account_body .c_account_card .name_box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.conneted_accounts_box
+  .c_account_body
+  .c_account_card
+  .name_box
+  p:nth-of-type(1) {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.conneted_accounts_box
+  .c_account_body
+  .c_account_card
+  .name_box
+  p:nth-of-type(2) {
+  color: var(--text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Connected Devices */
+.conneted_device_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.conneted_device_box .conneted_device_card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--white);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.conneted_device_box .conneted_device_card .cdc_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conneted_device_box .conneted_device_card .cdc_left .session_name {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.conneted_device_box .conneted_device_card .cdc_left .device_name_box {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+.conneted_device_box .conneted_device_card .cdc_left .device_name_box p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.conneted_device_box .conneted_device_card .cdc_left .device_date {
+  color: var(--text) !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+@media (max-width: 1440px) {
+  .conneted_device_box .conneted_device_card .cdc_left .session_name {
+    font-size: 16px;
+  }
+  .conneted_device_box .conneted_device_card .cdc_left .device_name_box p {
+    font-size: 16px;
+  }
+  .conneted_device_box .conneted_device_card .cdc_left .device_date {
+    font-size: 15px;
+  }
+}
+/* ---------------------------------------------------- */

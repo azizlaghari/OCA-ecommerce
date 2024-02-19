@@ -1,0 +1,12 @@
+.transaction_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.transaction_container .button_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}

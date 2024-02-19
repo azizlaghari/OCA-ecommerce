@@ -1,0 +1,83 @@
+.share_rewards_container {
+    width: 100%;
+
+}
+
+.reward {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.reward img {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+
+
+.rewardCol {
+    /* line-height: 90px; */
+    align-content: center;
+}
+
+.rewardCol p {
+    color: #1D1E20;
+
+    text-align: center;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.rewardCol h3 {
+    color: #1D1E20;
+
+    text-align: center;
+    font-family: Sora;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.rewardText {
+    color: #1D1E20;
+
+    text-align: center;
+    font-family: Sora;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.shareBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .reward img {
+        width: 20%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .rewardCol {
+        display: flex;
+        /* line-height: 90px; */
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rewardText{
+        font-size: 14px;
+    }
+    .rewardCol h3{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,119 @@
+.share_history_container {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.share_history_container .shareTableContainer .ant-table-wrapper .ant-table-container {
+    padding-left: 20px;
+  }
+.share_history_container .customButton {
+    color: var(--white);
+    height: 50px;
+    width: 170px;
+    cursor: pointer;
+    /* display: flex; */
+    align-self: center;
+    margin-bottom: 5rem;
+}
+
+.NoHistory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.empty {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2rem;
+}
+
+.emptyText {
+    text-align: center;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.shareCardContainer {
+    padding: 1rem 0px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 20px;
+    background: var(--white);
+    padding: 15px 25px 25px 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .sharedBox {
+    width: 100%;
+
+    border-radius: 20px;
+
+    background-color: #FFFEF3;
+
+
+}
+
+.sharedBox .sharedTo {
+    border-radius: 50px;
+    padding: 20px 10px;
+
+
+}
+
+.sharedBox .sharedTo .pointsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 32px;
+}
+
+.points {
+
+    font-family: "Sora";
+    font-size: "24px";
+    font-weight: 500;
+
+}
+
+.To {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.ToBio {
+    text-align: end;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fromBio {
+    text-align: end;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+.Product {
+  background: var(--lightGray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Product .customButton {
+  color: var(--white);
+  height: 50px;
+  width: 170px;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+.emptyProduct {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.emptyProduct img {
+  max-width: 100%;
+  height: auto;
+  /* This ensures the aspect ratio is maintained */
+  display: block;
+  /* Remove extra space below the image */
+  margin: 0 auto;
+  /* Center the image within its container */
+}
+.emptyProduct .emptyProductText {
+  color: var(--black);
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Product .product_pagination_box {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,40 @@
+.Categories {
+  background: var(--lightGray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Categories .customButton {
+  color: var(--white);
+  height: 72px;
+  width: 176px;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+.Categories .categoriesContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-block: 80px;
+  gap: 30px;
+}
+.Categories .emptyCart {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Categories .emptyCart img {
+  width: 40%;
+}
+
+.Categories .emptyCartText {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--darkGray);
+}

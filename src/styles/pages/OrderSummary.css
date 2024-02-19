@@ -1,0 +1,107 @@
+.OrderSummary {
+  background-color: var(--lightGray);
+}
+.OrderSummary .orderSummaryContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.OrderSummary .orderSummaryContent > img {
+  width: 546px;
+  height: auto;
+}
+.buyPoints {
+  font-weight: bold;
+  font-size: 40px !important;
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+.OrderSummary .orderSummaryContent .summaryWrapper {
+  width: 50%;
+}
+
+/* -------------------------------------- */
+.reward_image_box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 50px;
+}
+.reward_image_box .ri_left img,
+.reward_image_box .ri_right img {
+  width: 120px;
+}
+.reward_image_box .ri_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 140px;
+  margin-top: -40px;
+}
+.reward_image_box .ri_center img {
+  width: 70px;
+}
+.reward_image_box .ri_center .title {
+  color: #1d1e20;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.reward_image_box .ri_center .price {
+  color: #1d1e20;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+  .OrderSummary .orderSummaryContent > img {
+    width: 400px;
+    height: auto;
+  }
+  .buyPoints {
+    font-weight: bold;
+    font-size: 32px !important;
+    margin-top: -70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .OrderSummary .orderSummaryContent .summaryWrapper {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .reward_image_box .ri_left img,
+  .reward_image_box .ri_right img {
+    width: 100%;
+  }
+  .reward_image_box .ri_center .price {
+    font-size: 26px;
+  }
+  .reward_image_box .ri_center {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .OrderSummary .orderSummaryContent > img {
+    width: 100%;
+    height: auto;
+  }
+  .buyPoints {
+    font-weight: bold;
+    font-size: 26px !important;
+    margin-top: -50px;
+  }
+}

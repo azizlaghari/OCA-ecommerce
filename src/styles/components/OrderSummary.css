@@ -1,0 +1,127 @@
+.orderSummary {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.orderSummary > p {
+  color: var(--black);
+  /* font-family: Satoshi; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.orderSummary .labelNumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orderSummary .labelNumber label {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Sora;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.orderSummary .labelNumber p {
+  color: var(--black);
+  /* text-align: right; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.orderSummary .promoCodeInput {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.orderSummary .promoCodeInput input {
+  border-radius: 62px;
+  background: #f0f0f0;
+  display: flex;
+  padding: 12px 28px;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+  border: none;
+  width: 100%;
+}
+
+.orderSummary .promoCodeInput .PROMO_CODE_INPUT {
+  padding-right: 25px;
+  background: url("../../assets/images//promocodeIcon.svg") no-repeat left;
+  background-size: 20px;
+}
+
+.orderSummary .promoCodeInput input:focus {
+  outline: none;
+}
+
+.orderSummary .customBTN {
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.orderSummary .customBTN:hover {
+  color: var(--white) !important;
+}
+.SUMMARY_DIVIDER {
+  margin: 0 !important;
+}
+
+.paypal_btn_loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+/* ************* SCREEN RESPONSIVE ******************* */
+@media (max-width: 1440px) {
+  .orderSummary .customBTN {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .orderSummary .labelNumber p {
+    color: var(--black);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .orderSummary .labelNumber label {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .Product .productContainer {
+    padding-block: 80px;
+  }
+}

@@ -1,0 +1,41 @@
+@import "./_antd.css";
+@import "./_general.css";
+
+/* MODALS */
+@import "./modals/deleteModal.css";
+@import "./modals/rewardModal.css";
+
+/* COMPONENTS */
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/customerReview.css";
+@import "./components/ProductDetails.css";
+@import "./components/productCard.css";
+@import "./components/cartCard.css";
+@import "./components/OrderSummary.css";
+@import "./components/RewardCard.css";
+@import "./components/Banner.css";
+@import "./components/categoryCards.css";
+
+/* PAGES */
+@import "./pages/auth.css";
+@import "./pages/home.css";
+@import "./pages/productDetail.css";
+@import "./pages/cart.css";
+@import "./pages/checkout.css";
+@import "./pages/rewards.css";
+@import "./pages/Categories.css";
+@import "./pages/product.css";
+@import "./pages/wishlist.css";
+@import "./pages/contact.css";
+@import "./pages/aboutUs.css";
+@import "./pages/OrderSummary.css";
+
+/* Page Settings */
+@import "./pages/settings/settings.css";
+@import "./pages/settings/sideTabs.css";
+@import "./pages/settings/loginAndSecurity.css";
+@import "./pages/settings/personalInformation.css";
+@import "./pages/settings/shareRewards.css";
+@import "./pages/settings/orderHistory.css";
+@import "./pages/settings/shareHistory.css";
