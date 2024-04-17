@@ -43,6 +43,8 @@ export const login = async (payload: LoginType) => {
 export const register = async (payload: SignupType) => {
   try {
     const response = await publicAPI.post("/auth/register", payload);
+    console.log('response :', response);
+    
     if (response) {
       const isEmailVerified = await requestEmailToken(payload?.email);
       return isEmailVerified;

@@ -41,7 +41,7 @@ const Routers: React.FC = () => {
           <Route path="*" element={<Home />} />
         </Route>
         {/* Private */}
-        <Route element={<PrivateWrapper />}>
+        <Route element={<PublicWrapper />}>
           <Route path="/cart" element={<Cart />} />
           <Route path="/rewards" element={<Rewards />} />
           <Route path="/checkout" element={<Checkout />} />
